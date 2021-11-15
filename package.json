@@ -1,16 +1,24 @@
 {
-  "name": "app",
+  "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://madhukar-yadav.github.io/my-blog",
+  "homepage": "https://madhukar-yadav.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "history": "^5.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.3",
+    "styled-normalize": "^8.0.7",
     "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,8 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
