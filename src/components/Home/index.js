@@ -1,11 +1,12 @@
 
-import { Joke } from '../../components';
+import { Joke, Banner } from '../../components';
 import { HomeContainer } from './HomeStyles.js';
 
 const Home = () => {
 
   return ( 
       <HomeContainer>
+        <Banner />
         <Joke />
     </HomeContainer>
   );

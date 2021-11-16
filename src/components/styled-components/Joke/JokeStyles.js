@@ -9,7 +9,7 @@ export const JokeLabel = styled.div`
 `;
 
 export const JokeContainer = styled.div`
-padding: 2vw;
+    padding: 2vw;
 `;
 
 export const QuoteContainer = styled.div`

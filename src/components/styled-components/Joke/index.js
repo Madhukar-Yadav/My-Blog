@@ -1,23 +1,23 @@
 import { useState, useEffect } from 'react';
 import { JokeLabel, JokeContainer, QuoteContainer } from './JokeStyles';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
-import { API, JSON_HEADER } from '../../../config';
+import { fetchAJoke } from '../../../core/hooks';
 
-const Meme = () => {
+const Joke = () => {
     const [joke, setJoke] = useState('fetching...');
+    const [timer, setTimer] = useState(0);
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(async () => {
-        const config = {
-            method: 'GET',
-            mode: 'cors',
-            headers: Object.assign({}, JSON_HEADER),
-            cache: 'default',
-        };
-        const res = await fetch(API.jokeApi, config)
-        .then(response => response.json());
+        const res = await fetchAJoke();
         setJoke(res?.joke);
-    }, []);
+        setTimeout(() => setTimer(timer+1), 15000);
+        ;
+        return () => {
+            setTimer(0);
+            setJoke('fetching...');
+        }
+    }, [timer]);
     
     return ( 
         <JokeContainer>
@@ -29,4 +29,4 @@ const Meme = () => {
     );
 }
 
-export default Meme;
+export default Joke;

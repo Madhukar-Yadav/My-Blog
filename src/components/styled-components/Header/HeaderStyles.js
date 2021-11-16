@@ -7,8 +7,8 @@ export const HeaderSection = styled.div`
     color: #FFF;
     padding: 60px 4vw 0;
     @media screen and (max-width: 767.9px) {
-    padding: 20px 10px 0;
-}
+        padding: 20px 10px 0;
+    }
 `;
 
 export const HeaderTitle = styled.h2`
