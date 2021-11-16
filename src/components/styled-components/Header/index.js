@@ -1,4 +1,4 @@
-import { HeaderSection, HeaderLogo, HeaderTitle, HeaderLink, SocialLink } from './HeaderStyles';
+import { HeaderSection, HeaderLogo, HeaderLink, SocialLink } from './HeaderStyles';
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
 import { my_logo_blue } from '../../../assets/images';
 
@@ -6,7 +6,6 @@ const Header = () => {
     return ( 
         <HeaderSection>
             <HeaderLogo src={my_logo_blue} alt='headerLogo' />
-            {/* <HeaderTitle>React Blog App</HeaderTitle> */}
             <div>
                 <HeaderLink href="/">Portfolio</HeaderLink>
             </div>
