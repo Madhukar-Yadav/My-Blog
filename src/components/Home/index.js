@@ -1,13 +1,17 @@
 
-import { Joke, Banner } from '../../components';
-import { HomeContainer } from './HomeStyles.js';
+import { Banner, Skills, Joke } from '../../components';
+import { HomeContainer, Row, WIP } from './HomeStyles.js';
 
 const Home = () => {
 
   return ( 
       <HomeContainer>
         <Banner />
-        <Joke />
+        <Row id='Skills'>
+          <Skills />
+          <Joke />
+        </Row>
+        <WIP>Work in progress...</WIP>
     </HomeContainer>
   );
 }

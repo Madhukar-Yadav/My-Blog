@@ -19,9 +19,9 @@ const Joke = () => {
         }
     }, [timer]);
     
-    return ( 
+    return (
         <JokeContainer>
-            <JokeLabel>{`Fun with programming ;)`}</JokeLabel>
+            <JokeLabel>{`<> Funny Quotes 😉 </>`}</JokeLabel>
             <QuoteContainer>
                 <FaQuoteLeft size='2rem' /><h2>{joke}</h2><FaQuoteRight size='2rem' />
             </QuoteContainer>

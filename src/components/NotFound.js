@@ -23,7 +23,7 @@ const NotFound = () => {
         <PgNotFound>
             <h2>404 Error</h2>
             <p>Something went wrong!</p>
-            <Link to='/'>Take me back to Home</Link>
+            <Link to='/my-blog'>Take me back to Home</Link>
         </PgNotFound>
     );
 }

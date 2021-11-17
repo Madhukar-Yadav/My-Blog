@@ -10,7 +10,7 @@ function App() {
       <Header />
         <div className="content">
           <Routes>         
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/my-blog" element={<Home />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

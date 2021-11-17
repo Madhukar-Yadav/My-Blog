@@ -7,7 +7,8 @@ const Header = () => {
         <HeaderSection>
             <HeaderLogo src={my_logo_blue} alt='headerLogo' />
             <div>
-                <HeaderLink href="/">Portfolio</HeaderLink>
+                <HeaderLink href="/my-blog">Portfolio</HeaderLink>
+                <HeaderLink href="#Skills">Skills</HeaderLink>
             </div>
             <div>
                 <SocialLink target="_blank" href="https://github.com/Madhukar-Yadav">
