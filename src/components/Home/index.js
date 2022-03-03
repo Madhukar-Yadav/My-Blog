@@ -11,7 +11,7 @@ const Home = () => {
           <Skills />
           <Joke />
         </Row>
-        <WIP>Work in progress...</WIP>
+        <WIP>Work In Progress...</WIP>
     </HomeContainer>
   );
 }
