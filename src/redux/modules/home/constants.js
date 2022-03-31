@@ -1,0 +1,4 @@
+export const GET_A_JOKE_REQUEST = "GET_A_JOKE_REQUEST";
+export const GET_A_JOKE_SUCCESS = "GET_A_JOKE_SUCCESS";
+export const GET_A_JOKE_ERROR = "GET_A_JOKE_ERROR";
+export const CLEAR_A_JOKE = "CLEAR_A_JOKE";
