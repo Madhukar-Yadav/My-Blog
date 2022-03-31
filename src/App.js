@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-      <Header />
+        <Header />
         <div className="content">
           <Routes>         
             <Route exact path="/my-blog" element={<Home />} />
