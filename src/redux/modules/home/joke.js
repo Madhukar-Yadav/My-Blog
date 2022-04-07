@@ -1,13 +1,13 @@
 /* eslint-disable import/no-anonymous-default-export */
-import {API} from '../../../config';
+import {API} from 'config';
 import * as TYPES from './constants';
 import {
   requestJoke,
   recieveJoke,
   requestJokeError
 } from './actions';
-
 import {Services} from 'core/Services';
+
 const services = new Services();
 
 const initialState = {request: false};

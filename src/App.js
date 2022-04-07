@@ -1,8 +1,7 @@
 import {Suspense} from 'react';
 import {Provider} from 'react-redux';
-import { Home, Loading, NotFound } from './components';
-import configureStore from './redux/configureStore';
-import Header from './components/styled-components/Header';
+import configureStore from 'redux/configureStore';
+import { Home, Loading, NotFound, Header } from 'components';
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom'; 
 
 function App() {

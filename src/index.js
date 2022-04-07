@@ -1,9 +1,9 @@
 import React from 'react';
 import { render } from 'react-dom';
-import './index.css';
-import App from './App';
-import Theme from './assets/styles/theme';
-import reportWebVitals from './reportWebVitals';
+import 'index.css';
+import App from 'App';
+import Theme from 'assets/styles/theme';
+import reportWebVitals from 'reportWebVitals';
 
 render(
     <Theme>

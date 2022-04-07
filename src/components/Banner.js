@@ -1,5 +1,5 @@
-import { banner_image } from '../../../assets/images';
-import {BannerContainer, BannerTitle} from './bannerStyles';
+import { banner_image } from 'assets/images';
+import {BannerContainer, BannerTitle} from 'components/styled-components/bannerStyles';
 
 const Banner = () => {
     return ( 

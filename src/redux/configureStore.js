@@ -3,9 +3,9 @@ import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 import {composeWithDevTools} from 'redux-devtools-extension';
 
-import rootReducer from './reducers';
+import rootReducer from 'redux/reducers';
 
-// import {refreshToken} from './middlewares';
+// import {refreshToken} from 'redux/middlewares';
 // const middlewares = [refreshToken, thunk];
 
 const middlewares = [thunk];

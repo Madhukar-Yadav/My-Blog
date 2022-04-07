@@ -1,4 +1,4 @@
-import {JWT_HEADER, JSON_HEADER} from '../config';
+import {JWT_HEADER, JSON_HEADER} from 'config';
 
 export class Services {
     fetchRecords = (endpoint, token, removeHeader, fetchAsTxt) => {

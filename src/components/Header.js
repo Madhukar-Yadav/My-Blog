@@ -1,7 +1,7 @@
-import { HeaderSection, HeaderLogo, HeaderLink, SocialLink } from './HeaderStyles';
+import { HeaderSection, HeaderLogo, HeaderLink, SocialLink } from 'components/styled-components/HeaderStyles';
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from 'react-icons/ai';
-import { my_logo_blue } from '../../../assets/images';
-import {HeaderLinks} from '../../../config';
+import { my_logo_blue } from 'assets/images';
+import {HeaderLinks} from 'config';
 
 const Header = () => {
     return ( 

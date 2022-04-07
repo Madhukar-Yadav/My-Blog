@@ -1,6 +1,6 @@
 
-import { Banner, Skills, Joke } from '../../components';
-import { HomeContainer, Row, WIP } from './HomeStyles.js';
+import { Banner, Skills, Joke } from 'components';
+import { HomeContainer, Row, WIP } from 'components/styled-components/HomeStyles.js';
 
 const Home = () => {
 

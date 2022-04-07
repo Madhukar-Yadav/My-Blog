@@ -1,10 +1,10 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react';
 import { connect } from 'react-redux';
-import { JokeLabel, JokeContainer, QuoteContainer } from './JokeStyles';
 import { FaQuoteLeft, FaQuoteRight } from 'react-icons/fa';
-// import { fetchAJoke } from '../../../core/hooks';
-import { fetchAJoke, getJoke } from '../../../redux/modules/home';
+import { JokeLabel, JokeContainer, QuoteContainer } from 'components/styled-components/JokeStyles';
+// import { fetchAJoke } from 'core/hooks';
+import { fetchAJoke, getJoke } from 'redux/modules/home';
 
 const Joke = (props) => {
     const {joke, fetchAJoke} = props;

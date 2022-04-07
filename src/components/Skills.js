@@ -1,6 +1,6 @@
-import { BubbleSkill, SkillsContainer } from './skillsStyles';
+import { BubbleSkill, SkillsContainer } from 'components/styled-components/skillsStyles';
 import { FaHtml5, FaCss3, FaJsSquare, FaReact, FaNodeJs } from 'react-icons/fa';
-import { desktop_image } from '../../../assets/images';
+import { desktop_image } from 'assets/images';
 
 const Skills = () => {
     const skills = [

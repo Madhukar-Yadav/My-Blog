@@ -1,6 +1,6 @@
 import React from 'react';
-import { LoadWrapper, LoadingContainer, LoaderText } from './LoadingStyles';
 import { FaSpinner } from 'react-icons/fa';
+import { LoadWrapper, LoadingContainer, LoaderText } from 'components/styled-components/LoadingStyles';
 
 const Loading = ({showSpinLoader, title}) => {
   if (showSpinLoader) {

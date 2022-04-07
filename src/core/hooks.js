@@ -1,5 +1,5 @@
-import { Services } from '../core/Services';
-import { API, JSON_HEADER } from '../config';
+import { Services } from 'core/Services';
+import { API, JSON_HEADER } from 'config';
 
 export const fetchAJoke = () => {
   const config = {
